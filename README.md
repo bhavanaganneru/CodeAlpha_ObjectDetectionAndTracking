@@ -1,20 +1,19 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://ai.google.dev/static/site-assets/images/share-ais-513315318.png" />
-</div>
+CodeAlpha_ObjectDetectionAndTracking
 
-# Run and deploy your AI Studio app
+An AI-powered Object Detection and Tracking system built using YOLOv8, OpenCV, and DeepSORT. This project detects and tracks multiple objects in real-time using webcam or video input.
 
-This contains everything you need to run your app locally.
-
-View your app in AI Studio: https://ai.studio/apps/a2300609-eca9-4c17-b586-1849e396de0b
-
-## Run Locally
-
-**Prerequisites:**  Node.js
-
-
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+🚀 Features
+Real-time object detection
+Multi-object tracking
+Webcam support
+Video file processing
+Bounding box visualization
+Object labels with confidence scores
+Unique tracking IDs
+Fast and accurate AI detection
+🛠️ Technologies Used
+Python
+YOLOv8
+OpenCV
+DeepSORT
+Ultralytics
